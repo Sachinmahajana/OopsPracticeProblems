@@ -6,7 +6,7 @@
         {
             Console.WriteLine("Welcome to the oops concept practice problems");
             Console.WriteLine("Select the program given below");
-            Console.WriteLine("\n1:Pattern\n2:FindmaxminArray");
+            Console.WriteLine("\n1:Pattern\n2:FindmaxminArray\n3:SumofDigits");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
             {
@@ -16,6 +16,10 @@
                 case 2:
                     Findmaxmin myObj = new Findmaxmin();
                     myObj.FindMaxMinFunction();
+                    break;
+                case 3:
+                    SumofDigitNumber myObj1 = new SumofDigitNumber();
+                    myObj1.SumOfDigitFunction();
                     break;
             }
         }
