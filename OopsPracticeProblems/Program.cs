@@ -6,7 +6,7 @@
         {
             Console.WriteLine("Welcome to the oops concept practice problems");
             Console.WriteLine("Select the program given below");
-            Console.WriteLine("\n1:Pattern\n2:FindmaxminArray\n3:SumofDigits\n4:Reversestringeachword");
+            Console.WriteLine("\n1:Pattern\n2:FindmaxminArray\n3:SumofDigits\n4:Reversestringeachword\n5:FindDuplicates");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
             {
@@ -24,6 +24,10 @@
                 case 4:
                     Reversestring myObj2 = new Reversestring();
                     myObj2.ReverseStringFunction();
+                    break;
+                case 5:
+                    Duplicatenumber myObj3 = new Duplicatenumber();
+                    myObj3.DuplicateFunction();
                     break;
             }
         }
