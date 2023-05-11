@@ -6,7 +6,7 @@
         {
             Console.WriteLine("Welcome to the oops concept practice problems");
             Console.WriteLine("Select the program given below");
-            Console.WriteLine("\n1:Pattern\n2:FindmaxminArray\n3:SumofDigits\n4:Reversestringeachword\n5:FindDuplicates");
+            Console.WriteLine("\n1:Pattern\n2:FindmaxminArray\n3:SumofDigits\n4:Reversestringeachword\n5:FindDuplicates\n6:Firstletter");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
             {
@@ -28,6 +28,10 @@
                 case 5:
                     Duplicatenumber myObj3 = new Duplicatenumber();
                     myObj3.DuplicateFunction();
+                    break;
+                case 6:
+                    FirstletterCapital myObj4 = new FirstletterCapital();
+                    myObj4.FirstLetterCapitalFunction();
                     break;
             }
         }

@@ -11,6 +11,7 @@ namespace OopsPracticeProblems
         public void DuplicateFunction()
         {
             int[] array = { 1, 2, 3, 4, 5, 1, 2, };
+            
 
             for(int i = 0; i<array.Length; i++)
             {
